@@ -1,12 +1,32 @@
-## Descrição
+
+# Modelo de Classificação de Despesas <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Eye%20in%20Speech%20Bubble.png" alt="Eye in Speech Bubble" width="40" height="40" />
+
+<br>
+
+## Descrição 📑
 A utilização do modelo de classificação de despesas em Machine Learning começa com o processamento e análise dos dados disponíveis na planilha. Essa planilha contém registros de despesas categorizadas em 13 classes diferentes, como 
-"Aluguel", "Contas de Consumo", "Educação", entre outras, numeradas de 0 a 12.
+"Aluguel", "Contas de Consumo", "Educação", entre outras, numeradas de 0 a 12:
+| Código | Categoria             |
+|--------|-----------------------|
+| 0      | Aluguel              |
+| 1      | Contas de Consumo    |
+| 2      | Despesas Diversas    |
+| 3      | Educação             |
+| 4      | Empréstimos          |
+| 5      | Equipamentos         |
+| 6      | Impostos e Taxas     |
+| 7      | Pagamentos e Créditos|
+| 8      | Saúde                |
+| 9      | Seguro               |
+| 10     | Serviço Prestado     |
+| 11     | Serviços Digitais    |
+| 12     | Transporte           |
 
 O objetivo do modelo é prever a categoria de uma nova despesa com base em características como valor, data, descrição ou outros atributos relevantes. 
 
 <br>
 
-## Técnicas Usadas
+## Técnicas Usadas 💡
 ### Random Forest
 O Random Forest é um modelo de Machine Learning baseado em um conjunto de árvores de decisão. Ele funciona assim:
 
@@ -22,7 +42,7 @@ garantindo que o modelo seja testado de forma justa em diferentes cenários.
 
 <br>
 
-## Processo do Modelo
+## Processo do Modelo 📈
 
 1. **Pré-processamento dos dados:** Os dados da planilha são organizados e tratados. Isso inclui limpeza de valores inconsistentes, transformação de descrições de texto em vetores
 numéricos (usando técnicas como TF-IDF ou embeddings), e codificação de colunas categóricas.
@@ -42,7 +62,7 @@ Esse tipo de aplicação é útil para automação financeira, controle de orça
 
 <br>
 
-## Ferramentas Utilizadas
+## Ferramentas Utilizadas 🛠
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
